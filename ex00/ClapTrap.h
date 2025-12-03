@@ -6,8 +6,18 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 17:26:05 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/02 17:35:11 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/02 17:41:33 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#
+#ifndef CLAPTRAP_CPP
+#define CLAPTRAP_CPP
+
+class CLAPTRAP_CPP
+{
+    private:
+        
+    public:
+};
+
+#endif 
