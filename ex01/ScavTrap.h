@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 11:58:38 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/05 18:19:23 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/05 20:05:13 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,9 @@ class ScavTrap : public ClapTrap
         ScavTrap(std::string Name);
         ScavTrap& operator=(const ScavTrap& obj);
         ~ScavTrap();
+        
+        void    attack(const std::string& target);
+        
         void    guardGate();
 };
 
