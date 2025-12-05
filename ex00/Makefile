@@ -14,7 +14,7 @@ ${NAME} : ${OBJ}
 	${CPP} ${OBJ} -o $@
 
 %.o:%.cpp ClapTrap.h
-	${CPP}  -c $< -o $o 
+	${CPP}  -c $< -o $@
 
 claan :
 	rm -f ${OBJ}
