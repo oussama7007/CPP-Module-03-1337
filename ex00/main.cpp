@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 17:26:09 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/05 11:10:47 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/05 12:09:47 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@ int main()
 {
   
     std::cout << "--- CREATION ---" << std::endl;
-    ClapTrap robot("");
+    ClapTrap robot("Oussama");
     
     
     std::cout << "\n--- ATTACK TEST ---" << std::endl;
-    robot.attack("Target Dummy");
+    robot.attack("{My target}");
     
   
     std::cout << "\n--- DAMAGE TEST ---" << std::endl;
@@ -39,7 +39,6 @@ int main()
     ClapTrap robot2("*el3erbi*");
     for(int i = 0; i < 12; i++) 
         robot2.attack("Spam Target");
-
     std::cout << "\n--- DESTRUCTION ---" << std::endl;
     return 0;
 }
