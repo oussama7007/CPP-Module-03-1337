@@ -1,20 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ClapTrap.cpp                                       :+:      :+:    :+:   */
+/*   Claptrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/02 17:26:00 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/05 11:54:47 by oait-si-         ###   ########.fr       */
+/*   Created: 2025/12/05 11:58:29 by oait-si-          #+#    #+#             */
+/*   Updated: 2025/12/05 12:10:39 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.h"
-
-ClapTrap::ClapTrap() : Hit(10) , Energy(10), Attack(0) {}
-
-ClapTrap::ClapTrap(std::string Name) : _Name(Name) {}
 
 ClapTrap::ClapTrap() : _Name("Default"), Hit(10), Energy(10), Attack(0) 
 {

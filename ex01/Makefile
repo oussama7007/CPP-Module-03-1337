@@ -4,7 +4,7 @@ NAME = ClapTrap
 
 CPP = c++ -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp ClapTrap.cpp
+SRC = main.cpp ClapTrap.cpp ScavTrap.cpp
 
 OBJ = ${SRC:.cpp=.o}
 
@@ -13,7 +13,7 @@ all : ${NAME}
 ${NAME} : ${OBJ}
 	${CPP} ${OBJ} -o $@
 
-%.o:%.cpp ClapTrap.h
+%.o:%.cpp ClapTrap.h ScavTrap.h
 	${CPP}  -c $< -o $@
 
 clean :

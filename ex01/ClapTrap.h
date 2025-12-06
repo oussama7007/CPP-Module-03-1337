@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/02 17:26:05 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/05 11:59:11 by oait-si-         ###   ########.fr       */
+/*   Created: 2025/12/05 11:58:26 by oait-si-          #+#    #+#             */
+/*   Updated: 2025/12/05 15:32:57 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 
 class ClapTrap
 {
-    private:
+    protected:
         std::string _Name;
         int Hit;
         int Energy;

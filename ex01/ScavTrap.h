@@ -1,38 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ClapTrap.h                                         :+:      :+:    :+:   */
+/*   ScavTrap.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/02 17:26:05 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/05 11:59:11 by oait-si-         ###   ########.fr       */
+/*   Created: 2025/12/05 11:58:38 by oait-si-          #+#    #+#             */
+/*   Updated: 2025/12/05 20:05:13 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CLAPTRAP_HPP
-#define CLAPTRAP_HPP
 
-#include <iostream>
+#ifndef SCAVTRAP_HPP
+#define SCAVTRAP_HPP
 
-class ClapTrap
+#include "ClapTrap.h"
+
+
+class ScavTrap : public ClapTrap
 {
-    private:
-        std::string _Name;
-        int Hit;
-        int Energy;
-        int Attack;
     public:
-        ClapTrap();
-        ClapTrap(const ClapTrap& obj);        
-        ClapTrap(std::string   Name);
-        ClapTrap& operator=(const ClapTrap& obj);
-        ~ClapTrap();
-
-        void    attack(const std::string& target);
-        void    takeDamage(unsigned int amount);
-        void    beRepaired(unsigned int amount);
+        ScavTrap();
+        ScavTrap(const ScavTrap& obj);
+        ScavTrap(std::string Name);
+        ScavTrap& operator=(const ScavTrap& obj);
+        ~ScavTrap();
         
+        void    attack(const std::string& target);
+        
+        void    guardGate();
 };
 
-#endif 
+#endif
