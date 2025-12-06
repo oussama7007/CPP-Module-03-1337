@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 11:58:29 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/06 14:14:18 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/06 17:04:35 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,6 +75,7 @@ void        ClapTrap::takeDamage(unsigned int amount)
     std::cout << "ClapTrap " << _Name << " takes " << amount 
               << " points of damage! (Current HP: " << Hit << ")" << std::endl;
 }
+
 
 
 
