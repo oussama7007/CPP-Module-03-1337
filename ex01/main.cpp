@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 11:58:32 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/06 18:45:13 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/06 18:54:46 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int main()
         std::cout << "\nCalling attack via ClapTrap pointer:" << std::endl;
         ptr->attack("Target");
 
-        std::cout << "\nmDeleting the pointer:" << std::endl;
+        std::cout << "\nDeleting the pointer:" << std::endl;
 
         delete ptr; 
     }

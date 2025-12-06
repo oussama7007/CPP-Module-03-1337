@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 11:58:29 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/06 17:04:35 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/06 18:54:00 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ ClapTrap::ClapTrap(const ClapTrap& obj)
 {
     std::cout << "ClapTrap Copy Constructor called" << std::endl;
     *this = obj;
+    
+
 }
 
 
