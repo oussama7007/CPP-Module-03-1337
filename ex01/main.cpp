@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 11:58:32 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/06 17:35:09 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/06 18:45:13 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main()
         
         ScavTrap a("RobotA");
         std::cout << "Constructing ScavTrap b (Copy of a)" << std::endl;
-        ClapTrap b = a;
+        ScavTrap b(a);
     }
     std::cout << "-----------------[Destructors for a and b should appear above this line]---------------------" << std::endl;
 
