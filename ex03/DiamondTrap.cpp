@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:25:57 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 19:03:49 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 20:15:35 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,7 @@ DiamondTrap& DiamondTrap::operator=(const DiamondTrap& obj)
 
 void DiamondTrap::whoAmI()
 {
+    
     std::cout << "I am DiamondTrap: " << this->_Name 
               << ", and my ClapTrap name is: " << ClapTrap::_Name << std::endl;
-}
+} 
