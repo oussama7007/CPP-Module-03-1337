@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:25:57 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 20:15:35 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 20:59:32 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,13 @@ DiamondTrap& DiamondTrap::operator=(const DiamondTrap& obj)
     }
     return *this;
 }
+
+void	DiamondTrap::attack(const std::string &target)
+{
+	            ScavTrap::attack(target);
+}
+
+
 
 void DiamondTrap::whoAmI()
 {

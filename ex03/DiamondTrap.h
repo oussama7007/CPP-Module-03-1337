@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:26:02 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 19:02:05 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 21:00:34 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,8 @@ class   DiamondTrap :public FragTrap,  public ScavTrap
             DiamondTrap& operator=(const DiamondTrap& obj);
             ~DiamondTrap();
 
-            using ScavTrap::attack; 
-
+            // void attack(const std::string &target);
+            using ScavTrap::attack;
             void whoAmI();
 };
 
