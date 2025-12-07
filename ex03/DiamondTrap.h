@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:26:02 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 13:26:03 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 17:51:32 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 #ifndef DIAMONDTRAP_H
 #define DIAMONDTRAP_H
 
-class   DiamondTrap : public ClapTrap
+class   DiamondTrap : public S
 {
     
 }

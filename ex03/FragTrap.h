@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:26:10 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 13:26:11 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 17:51:19 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 
 #include "ClapTrap.h"
 
-class FragTrap : public ClapTrap
+class FragTrap : virtual public ClapTrap
 {
     public:
         FragTrap();
