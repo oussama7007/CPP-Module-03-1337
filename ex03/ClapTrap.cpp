@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:25:48 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 13:25:49 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 19:00:26 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ ClapTrap::ClapTrap() : _Name("Default"), Hit(10), Energy(10), Attack(0)
 }
 
 
-ClapTrap::ClapTrap(std::string Name) :_Name(Name), Hit(10), Energy(10), Attack(0)
+ClapTrap::ClapTrap(const std::string& Name) :_Name(Name), Hit(10), Energy(10), Attack(0)
 {
     std::cout << "ClapTrap " << _Name << " is born!" << std::endl;
 }

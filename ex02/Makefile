@@ -4,7 +4,7 @@
 
 
 
-NAME = ClapTrap
+NAME = FragTrap
 
 CPP = c++ -Wall -Wextra -Werror -std=c++98
 

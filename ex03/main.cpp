@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:26:13 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 13:26:14 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 18:44:23 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,3 +17,17 @@
 #include "FragTrap.h"
 #include "ScavTrap.h"
 #include "DiamondTrap.h"
+
+
+#include "DiamondTrap.h"
+
+int main()
+{
+    DiamondTrap d("Monster");
+
+    d.whoAmI();
+    d.attack("Target"); 
+    
+
+    return 0;
+}
