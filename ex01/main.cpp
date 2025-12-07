@@ -12,7 +12,6 @@
 
 
 #include "ScavTrap.h"
-#include <iostream>
 
 int main()
 {
