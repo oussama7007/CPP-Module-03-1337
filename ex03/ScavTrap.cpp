@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:26:18 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 13:26:19 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 21:42:37 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,17 +54,17 @@ ScavTrap& ScavTrap::operator=(const ScavTrap& obj)
     return *this;
 }
 
-void ScavTrap::attack(const std::string& target)
-{
-    if (Energy <= 0 || Hit <= 0)
-    {
-        std::cout << "ScavTrap " << _Name << " cannot attack." << std::endl;
-        return;
-    }
-    Energy--;
-    std::cout << "ScavTrap " << _Name << " attacks " << target 
-              << " vigorously, dealing " << Attack << " points of damage!" << std::endl;
-}
+// void ScavTrap::attack(const std::string& target)
+// {
+//     if (Energy <= 0 || Hit <= 0)
+//     {
+//         std::cout << "ScavTrap " << _Name << " cannot attack." << std::endl;
+//         return;
+//     }
+//     Energy--;
+//     std::cout << "ScavTrap " << _Name << " attacks " << target 
+//               << " vigorously, dealing " << Attack << " points of damage!" << std::endl;
+// }
 
 void ScavTrap::guardGate()
 {

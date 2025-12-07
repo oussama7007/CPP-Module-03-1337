@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 13:26:10 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 19:39:37 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 21:42:28 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,20 @@ class FragTrap : virtual public ClapTrap
         FragTrap& operator=(const FragTrap& obj);
         ~FragTrap();
 
+
+
+
+        void attack(const std::string& target)
+        {
+                if (Energy <= 0 || Hit <= 0)
+                {
+                        std::cout << "ScavTrap " << _Name << " cannot attack." << std::endl;
+                        return;
+                }
+                Energy--;
+                std::cout << "ScavTrap " << _Name << " attacks " << target 
+                    << " vigorously, dealing " << Attack << " points of damage!" << std::endl;
+        }
         
         void highFivesGuys(void);
 };
