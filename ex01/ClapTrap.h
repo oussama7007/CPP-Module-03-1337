@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 11:58:26 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 14:37:00 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 15:56:03 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ class ClapTrap
         ClapTrap& operator=(const ClapTrap& obj);
         virtual  ~ClapTrap(); 
 
-        void     attack(const std::string& target);
+        virtual void     attack(const std::string& target);
         void    takeDamage(unsigned int amount);
         void    beRepaired(unsigned int amount);
         

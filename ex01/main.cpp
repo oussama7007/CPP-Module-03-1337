@@ -6,7 +6,7 @@
 /*   By: oait-si- <oait-si-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 11:58:32 by oait-si-          #+#    #+#             */
-/*   Updated: 2025/12/07 15:09:19 by oait-si-         ###   ########.fr       */
+/*   Updated: 2025/12/07 15:55:31 by oait-si-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,13 +41,14 @@ int main()
     std::cout << "### TESTING POLYMORPHISM (VIRTUAL DESTRUCTOR) ###\n" << std::endl;
     {
         std::cout << "Allocating ScavTrap as a ClapTrap pointer:" << std::endl;
-        ClapTrap* ptr = new ScavTrap("Polymorph");
+        ScavTrap a("Polymorph");
+        ClapTrap* ptr = &a;
 
         std::cout << "\nCalling attack via ClapTrap pointer:" << std::endl;
         ptr->attack("Target");
 
         std::cout << "\nDeleting the pointer:" << std::endl;
 
-        delete ptr; 
+        // delete ptr; 
     }
 }
